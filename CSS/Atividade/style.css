@@ -1,0 +1,25 @@
+h1{
+    text-shadow: 2px 2px 4px rgb(0, 255, 64);
+}
+h1{
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style:normal;
+    font-size: 95%;
+}
+img {
+    filter: grayscale(00%);
+    }
+    img:hover {
+    filter: brightness(120%);
+    }
+    img {
+    filter: blur(5px);
+    }
+  img {
+    border: 5px double   rgb(0, 255, 68);
+    }   
+    table, th, td {
+        border: 1px solid black;
+        }

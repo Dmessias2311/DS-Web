@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<form action="/submit" method="post">
+<!-- Campo de texto -->
+<label for="nome">Nome:</label>
+<input type="text" id="nome" name="nome" placeholder="Digite seu no
+me" required>
+<!-- Campo de e-mail -->
+<label for="email">E-mail:</label>
+<input type="email" id="email" name="email" placeholder="email@exe
+mplo.com" required>
+<!-- Campo de senha -->
+<label for="senha">Senha:</label>
+<input type="password" id="senha" name="senha" placeholder="Digite
+sua senha" required>
+<!-- Campo numérico -->
+<label for="idade">Idade:</label>
+<input type="number" id="idade" name="idade" min="1" max="120" req
+uired>
+</br><br><!-- Utilizado para pular linha para melhorar a visibilidade do e
+xemplo -->
+<!-- Botões de rádio -->
+<label>Gênero:</label>
+<input type="radio" id="masculino" name="genero" value= "masculino"
+required>
+<label for="masculino">Masculino</label>
+<input type="radio" id="feminino" name="genero" value="feminino">
+<label for="feminino">Feminino</label>
+</br><br><!-- Utilizado para pular linha para melhorar a visibilidade do e
+xemplo -->
+<!-- Caixas de seleção -->
+<label>Interesses:</label>
+<input type="checkbox" id="tecnologia" name="interesses" value="tec
+nologia">
+<label for="tecnologia">Tecnologia</label>
+<input type="checkbox" id="esportes" name="interesses" value="espor
+tes">
+<label for="esportes">Esportes</label>
+<input type="checkbox" id="arte" name="interesses" value="arte">
+<label for="arte">Arte</label>
+</br><br><!-- Utilizado para pular linha para melhorar a visibilidade do e
+xemplo -->
+<!-- Botão de envio - submit -->
+<button type="submit">Enviar</button>
+</form>
+
+<label for="cores">Time:</label>
+<select id="cores" name="cores">
+<option value="vermelho">São Paulo</option>
+<option value="azul">Palmeiras</option>
+<option value="verde">Varmengo</option>
+<option value="verde">Vasco</option>
+<option value="verde">Santos</option>
+<option value="verde">Botafofo</option>
+<option value="verde">Fluminense</option>
+<option value="verde">Atletico MIneiro</option>
+<option value="verde">Cruzeiro</option>
+<option value="verde">Internacional</option>
+<option value="verde">Gremio</option>
+<option value="verde">Corinthias</option>
+</select>
+<br>
+<label for="carros">Escolha um jogador:</label>
+<select id="carros" name="carros">
+<optgroup label="São Paulo">
+<option value="corolla">Lucas Moura</option>
+<option value="civic">Arboleda</option>
+<option value="civic">Marcos Antonio</option>
+<option value="civic">Enzo Diaz</option>
+<option value="civic">Alan Franco</option>
+<option value="civic">Ferraresi</option>
+<option value="civic">Sabino</option>
+<option value="civic">Rafael</option>
+<option value="civic">Cedrid</option>
+<option value="civic">Bobadilia</option>
+<option value="civic">Alisson</option>
+<option value="civic">Pablo Maia</option>
+<option value="civic">Ferrerinha</option>
+<option value="civic">Ryan Francisco</option>
+<option value="civic">Andre Silva</option>
+<option value="civic">Wendel</option>
+]<option value="civic">Calleri</option>
+
+</optgroup>
+<optgroup label="SUVs">
+<option value="crv">Jogador</option>
+<option value="rav4">Toyota RAV4</option>
+</optgroup>
+</select>
+<body>
+       <h2>Opinião Sobre o Ultimo jogo do São Paulo:</h2>
+       <form>
+       <label for="resumo">OPINIÃO</label><br>
+       <textarea id="resumo" name="resumo" rows="6" cols="60" max-leng
+       th="300" required>
+       Aqui
+       </textarea>
+       <br><br>
+       <button type="submit">Enviar</button>
+       </form>
+       </body>

@@ -1,0 +1,40 @@
+/*Comentario em css*/
+/*comentario de css*/
+/*seletor universal*/
+/*Informação basica*/
+li { 
+    color: white;
+}
+/*Titulo*/
+h1 {
+    color:red ;
+}
+ /*Seletor Tag HTML*/
+ p{
+    color: white;
+ }
+body {
+    background-color: white;
+}
+ 
+/*linear*/
+body
+{background:linear-gradient(to bottom,black, white, red)
+}
+a{
+   color:red;
+
+}
+
+
+ /*seletor class*/
+ .paragrafo.bolha {
+    color: white;
+ }
+ /*Seletor ID*/
+ #paragrafo-henry{
+    color:red
+ }
+li { 
+    color: white;
+}
