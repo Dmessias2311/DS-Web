@@ -1,0 +1,11 @@
+
+.Caixa{
+    background-color: red;
+    height: 300px;
+    width: 200px;
+    padding: 40px 40px;
+    border: 2px solid black;
+    margin: 50px 50% ;
+    text-align: center;
+    align-items: center;
+}

@@ -1,0 +1,19 @@
+
+div{
+    display: inline-block;
+    margin: 10px;
+}
+.Caixa{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    padding: 15px;
+    border: 2px solid black;
+}
+.Caixa1{
+    background-color: aqua;
+    height: 150px;
+    width: 150px; 
+    padding: 15px ;
+    border: 2px solid black; 
+}
