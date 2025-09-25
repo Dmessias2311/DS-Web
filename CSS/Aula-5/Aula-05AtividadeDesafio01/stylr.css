@@ -1,0 +1,25 @@
+.Menu {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;     
+    color: white;          
+    text-align: center;  
+  }
+  
+  .texto {
+    display: flex;
+    margin-top: 70px;     
+    padding: 10px;
+  }
+  
+  .Menu1 {
+    width: 250px;
+    background: red;
+    padding: 10px;
+    height: 500px;       
+    position: sticky;
+    top: 70px;           
+  }

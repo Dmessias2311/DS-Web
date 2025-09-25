@@ -1,0 +1,10 @@
+.Cabeçalho {
+    height: 60px;                
+    background-color: orange;    
+    text-align: center;           
+    line-height: 60px;           
+    position: sticky;             
+    top: 0;                      
+  }
+  
+  
