@@ -1,0 +1,31 @@
+.menu {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(249, 79, 79);     
+    color: white;          
+    text-align: center; 
+    padding: 20px; 
+    border: 10px;
+  }
+  
+  .texto {
+    display: flex;
+    margin-top: 70px;     
+    padding: 10px;
+    text-align: center;
+  }
+  body{
+    background:rgba(255, 255, 88, 0.858)
+}
+table, th, td {
+    border: 1px solid black;
+    }
+    h3{
+      font-family: "Source Code Pro", monospace;
+      font-optical-sizing: auto;
+      font-weight:weight;
+      font-style:normal;
+  }

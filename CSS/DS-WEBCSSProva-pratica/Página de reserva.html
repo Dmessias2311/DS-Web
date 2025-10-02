@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor & Arte|Reserva</title>
+    <link rel="stylesheet" href="style reserva.css">
+    <br><br><br><br><br><br>
+</head>
+<body>
+    <div class="menu">
+      <center>
+       <h1>Faça sua reserva</h1>
+       <a href="Página inicial.html">Página inicial</a>
+       <a href="Página de cardápio.html">Página do cardápio</a> 
+       <a href="Página de promações.html">Página de Promoções</a>
+       <a href="Página de reserva.html">Página de reserva</a>
+    </div>
+        <label for="nome">Nome</label><br>
+        <input type="text" id="nome" name="nome" 
+               required placeholder="Digite seu nome"
+               maxlength="50"><br>
+        <hr>
+        <label for="email">E-mail</label><br>
+        <input type="email" id="email" name="email" 
+               required placeholder="Digite seu e-mail"><br>
+               <hr>
+               <label for="tel">Telefone</label><br>
+               <input type="number" id="tel" name="tel" 
+                      required placeholder="Digite seu telefone"><br>
+        <hr>
+        <label for="idade">Quantidade de pessoas</label><br>
+        <input type="number" id="Quantidade de pessoas" name="Quantidade de pessoas" 
+               required placeholder="Digite a quantidade de pessoas"
+               pattern="[1,120]">
+        <hr>
+               <label for="opcao1">Feminino</label>
+               <input type="radio" id="opcao2" name="escolha" value="2" checked>
+               <label for="opcao2">Masculino</label>
+               <input type="radio" id="opcao2" name="escolha" value="2" checked>
+               <br>       <hr>
+
+               <label><h3>Onde deseja a reserva:</h3></label>
+               <label for="opcao1">Terraço</label>
+               <input type="radio" id="opcao2" name="escolha" value="2" checked>
+               <label for="opcao2">Piso 1</label>
+               <input type="radio" id="opcao2" name="escolha" value="2" checked>
+               <label for="opcao1">Piso 2</label>
+               <input type="radio" id="opcao2" name="escolha" value="2" checked>
+               <br>       <hr>
+               <h3>Oque deseja a mais:</h3>
+<form>
+<label for="resumo">Digite Aqui</label><br>
+<textarea id="resumo" name="resumo" rows="6" cols="60" max-leng
+th="300" required>
+
+</textarea>
+<br><br>
+               <button type="submit">Enviar Reserva</button>    
+      </center>
