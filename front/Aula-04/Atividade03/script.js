@@ -21,8 +21,6 @@ function cadastro(){
     "Telefone: " + Telefone + "<br>" +
     "Turma: " + Turma + "<br>";
 
-
-    
     //*Atribuo um id
     novoItem.setAttribute("id", contadorItem);
     //*Criar o botão de remover
@@ -40,4 +38,3 @@ function removerEmail(contadorItem){
     var item = document.getElementById(contadorItem)
     document.getElementById("lista").removeChild(item)
 }
-

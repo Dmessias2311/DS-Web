@@ -1,0 +1,31 @@
+
+body {
+    text-align: center;
+    background: #75ff9e;
+}
+
+.area {
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 200px auto;
+    padding: 10px;
+}
+
+form, fieldset {
+    display: inline;
+}
+
+h4 {
+    margin: 0;
+}
+
+.mensagem, .posicao {
+    font-weight: bold;
+}
+
+.espacamento {
+    height: 500px;
+}
