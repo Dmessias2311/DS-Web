@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+    overflow: hidden; 
+}
+
+.personagem {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.1s; 
+}
+body {
+    margin: 0;
+    background-image: url('labirinto.png'); 
+    
+    background-size: 100vw 100vh; 
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    height: 100vh;
+    overflow: hidden; 
+}
+.titulo {
+    position: absolute;
+    top: 13px;
+    left: 490px ;
+    font-size: 24px;
+    color: #5c5c5c;
+}

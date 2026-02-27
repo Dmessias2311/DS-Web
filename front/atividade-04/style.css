@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.titulo {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    z-index: 10;
+}
+
+canvas {
+    /* A imagem de fundo é aplicada ao canvas para alinhar com a física */
+    background-image: url('kabirinto.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid #333;
+}

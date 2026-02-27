@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mover Imagem</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #f0f0f0; /* Cor de fundo para destacar */
+        }
+        .personagem {
+            height: 40px; /* Aumentei um pouco para a imagem aparecer melhor */
+            width: 40px;
+            position: absolute;
+            /* Se quiser remover o fundo vermelho e bordas, 
+               basta garantir que a imagem preencha o espaço */
+        }
+    </style>
+</head>
+<body>
+    <img src="labirinto.jpg" class="personagem" id="quadrado">
+
+    <script>
+        var quadrado = document.getElementById("quadrado");
+        var Y = 0;
+        var X = 0;
+
+        document.addEventListener("keydown", function (event) {
+            // Usando 20px de movimento para compensar o tamanho da imagem
+            const velocidade = 20;
+
+            if (event.key.toLowerCase() === "s") {
+                Y += velocidade;
+                quadrado.style.top = Y + "px"; // 'top' é melhor que 'marginTop' para position:absolute
+            }
+            if (event.key.toLowerCase() === "w") {
+                Y -= velocidade;
+                quadrado.style.top = Y + "px";
+            }
+            if (event.key.toLowerCase() === "d") {
+                X += velocidade;
+                quadrado.style.left = X + "px"; // 'left' é melhor que 'marginLeft'
+            }
+            if (event.key.toLowerCase() === "a") {
+                X -= velocidade;
+                quadrado.style.left = X + "px";
+            }
+        });
+    </script>
+</body>
+</html> 
